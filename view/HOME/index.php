@@ -33,11 +33,11 @@
     <!-- vendor css -->
     <link href="../../public/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="../../public/lib/Ionicons/css/ionicons.css" rel="stylesheet">
-    <link href=".././public/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
-    <link href=".././public/lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+    <link href="../../public/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="../../public/lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
 
     <!-- Bracket CSS -->
-    <link rel="stylesheet" href="../css/bracket.css">
+    <link rel="stylesheet" href="../../public/css/bracket.css">
   </head>
 
   <body>
@@ -50,7 +50,7 @@
         <a href="index.html" class="br-menu-link">
           <div class="br-menu-item">
             <i class="menu-item-icon icon ion-ios-home-outline tx-22"></i>
-            <span class="menu-item-label">Dashboard</span>
+            <span class="menu-item-label">Inicio</span>
           </div><!-- menu-item -->
         </a><!-- br-menu-link -->
         <a href="mailbox.html" class="br-menu-link">
@@ -825,6 +825,6 @@
     <script src="../../public/lib/jquery-switchbutton/jquery.switchButton.js"></script>
     <script src="../../public/lib/peity/jquery.peity.js"></script>
 
-    <script src="../js/bracket.js"></script>
+    <script src="../../public/js/bracket.js"></script>
   </body>
 </html>
