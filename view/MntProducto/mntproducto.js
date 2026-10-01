@@ -40,7 +40,7 @@ $(document).ready(function(){
             "sEmptyTable": "Ningún dato disponible en esta tabla",
             "sInfo": "Mostrando un total de TOTAL registros",
             "sInfoEmpty": "Mostrando un total de 0 registros",
-            "sInfoFiltered": "(Filtrado de un total de MAX registros)",
+            "sInfoFiltered": "(Filtrado de un total de MAX r1egistros)",
             "sInfoPostFix": "",
             "sSearch": "Buscar:",
             "sUrl": "",

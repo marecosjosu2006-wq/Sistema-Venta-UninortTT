@@ -18,11 +18,7 @@ class conectar {
         );
 
 
-<<<<<<< HEAD
         //echo "Conexion exitosa a la base de datos";
-=======
-        echo "Conexion exitosa a la base de datos";
->>>>>>> d04f68615c4a3637496fa38b645e0076864c9e31
         return $this->dbh;
 
     } catch (PDOExeption $e){
