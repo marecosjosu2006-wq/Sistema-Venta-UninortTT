@@ -4,7 +4,7 @@ function init(){
 
 $(document).ready(function(){
 
-    tabla = $('#producto_data').dataTable({
+    tabla = $('#producto_data').datatable1({
 
         "aProcessing": true, // Activamos el procesamiento de datatables
         "aServerSide": true, // Paginación y filtrado realizados por el servidor

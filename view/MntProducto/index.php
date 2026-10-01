@@ -36,6 +36,7 @@
     <link href="../../public/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
     <link href="../../public/lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
 
+    <link href="../../public/lib/datatables/jquery.dataTables.css" rel="stylesheet">
     <!-- Bracket CSS -->
     <link rel="stylesheet" href="../../public/css/bracket.css">
   </head>
@@ -708,6 +709,9 @@
     <script src="../../public/lib/jquery-ui/jquery-ui.js"></script>
     <script src="../../public/lib/jquery-switchbutton/jquery.switchButton.js"></script>
     <script src="../../public/lib/peity/jquery.peity.js"></script>
+
+    <srcipt src="../../public/lib/datatables/jquery.dataTables.js"></script>
+    <srcipt src="../../public/lib/datatables-responsive/dataTables.responsive.js"></script>
 
     <script src="../../public/js/bracket.js"></script>
   </body>
