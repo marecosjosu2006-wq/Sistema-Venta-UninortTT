@@ -698,31 +698,31 @@
           <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Mantenimiento Producto</h6>
           <p class="mg-b-25 mg-lg-b-50">Searching, ordering and paging goodness will be immediately added to the table, as shown in this example.</p>
 
-          <div class="table-wrapper">
-            <table id="datatable1" class="table display responsive nowrap">
-              <thead>
-                <tr>
-                  <th class="wd-15p">Nombre del Producto</th>
-                  <th class="wd-15p">Editar</th>
-                  <th class="wd-20p">Eliminar</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Coca cola 2l Descartable</td>
-                  <td>Editar</td>
-                  <td>Eliminar</td>
-                </tr>
+         <div class="table-wrapper">
+  <table id="datatable1" class="table display responsive nowrap">
+    <thead>
+      <tr>
+        <th class="wd-15p">Nombre del Producto</th>
+        <th class="wd-15p">Editar</th>
+        <th class="wd-20p">Eliminar</th>
+      </tr>
+    </thead>
 
-                <tr>
-                  <td>Agua Mineral 3L Descartable</td>
-                  <td>Editar</td>
-                  <td>Eliminar</td>
-                </tr>
-              
-                </thead>
-              <tbody>
+    <tbody>
+      <tr>
+        <td>Coca cola 2l Descartable</td>
+        <td>Editar</td>
+        <td>Eliminar</td>
+      </tr>
 
+      <tr>
+        <td>Agua Mineral 3L Descartable</td>
+        <td>Editar</td>
+        <td>Eliminar</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
       <div class="br-pagebody">
 
@@ -743,7 +743,6 @@
     <script src="../../public/lib/peity/jquery.peity.js"></script>
      <script src="../../public/lib/datatables/jquery.dataTables.js"></script>
     <script src="../../public/lib/datatables-responsive/dataTables.responsive.js"></script>
-
     <script src="../../public/js/bracket.js"></script>
 
 
