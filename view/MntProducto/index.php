@@ -35,7 +35,6 @@
     <link href="../../public/lib/Ionicons/css/ionicons.css" rel="stylesheet">
     <link href="../../public/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
     <link href="../../public/lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
-
     <link href="../../public/lib/datatables/jquery.dataTables.css" rel="stylesheet">
     <!-- Bracket CSS -->
     <link rel="stylesheet" href="../../public/css/bracket.css">
@@ -46,16 +45,17 @@
     <!-- ########## START: LEFT PANEL ########## -->
     <div class="br-logo"><a href=""><span>[</span>Ventas<span>]</span></a></div>
     <div class="br-sideleft overflow-y-auto">
-      <label class="sidebar-label pd-x-15 mg-t-20">Navegación</label>
+      <label class="sidebar-label pd-x-15 mg-t-20">Navegacion</label>
       <div class="br-sideleft-menu">
-        
-      <a href="../../index.php" class="br-menu-link">
+
+
+        <a href="../../index.php" class="br-menu-link">
           <div class="br-menu-item">
             <i class="menu-item-icon icon ion-ios-home-outline tx-22"></i>
             <span class="menu-item-label">Dashboard</span>
           </div><!-- menu-item -->
         </a><!-- br-menu-link -->
-        
+      
        
         <a href="#" class="br-menu-link">
           <div class="br-menu-item">
@@ -65,14 +65,15 @@
           </div><!-- menu-item -->
         </a><!-- br-menu-link -->
 
+
         <ul class="br-menu-sub nav flex-column">
-          <li class="nav-item"><a href="accordion.html" class="nav-link">Productos</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Productos</a></li>
         </ul>
         </div>
 
-        
+    
 
-      <label class="sidebar-label pd-x-15 mg-t-25 mg-b-20 tx-info op-9">Sistema Venta Uninorte</label>
+      <label class="sidebar-label pd-x-15 mg-t-25 mg-b-20 tx-info op-9">Sistema Venta</label>
 
       <div class="info-list">
         <div class="d-flex align-items-center justify-content-between pd-x-15">
@@ -683,14 +684,44 @@
     <div class="br-mainpanel">
       <div class="br-pageheader pd-y-15 pd-l-20">
         <nav class="breadcrumb pd-0 mg-0 tx-12">
-          <a class="breadcrumb-item" href="index.html">Sistemas Ventas</a>
+          <a class="breadcrumb-item" href="index.html">Ventas</a>
           <span class="breadcrumb-item active">Productos</span>
         </nav>
       </div><!-- br-pageheader -->
       <div class="pd-x-20 pd-sm-x-30 pd-t-20 pd-sm-t-30">
         <h4 class="tx-gray-800 mg-b-5">Pagina de Productos</h4>
-        <p class="mg-b-0">Esta pagina sera destinada al modulo de productos</p>
+        <p class="mg-b-0">Gogeta es la mejor fusion</p>
       </div>
+
+
+      <div class="br-section-wrapper">
+          <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Mantenimiento Producto</h6>
+         <button id="btnnuevo" class="btn btn-primary btn-block mg-b-10">Nuevo Registro</button>
+         <div class="table-wrapper">
+  <table id="datatable1" class="table display responsive nowrap">
+    <thead>
+      <tr>
+        <th class="wd-15p">Nombre del Producto</th>
+        <th class="wd-15p">Editar</th>
+        <th class="wd-20p">Eliminar</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Coca cola 2l Descartable</td>
+        <td>Editar</td>
+        <td>Eliminar</td>
+      </tr>
+
+      <tr>
+        <td>Agua Mineral 3L Descartable</td>
+        <td>Editar</td>
+        <td>Eliminar</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
       <div class="br-pagebody">
 
@@ -700,6 +731,9 @@
 
     </div><!-- br-mainpanel -->
     <!-- ########## END: MAIN PANEL ########## -->
+     <?php require_once("modalmantenimiento.php") ?>
+
+
 
     <script src="../../public/lib/jquery/jquery.js"></script>
     <script src="../../public/lib/popper.js/popper.js"></script>
@@ -710,9 +744,16 @@
     <script src="../../public/lib/jquery-switchbutton/jquery.switchButton.js"></script>
     <script src="../../public/lib/peity/jquery.peity.js"></script>
 
-    <srcipt src="../../public/lib/datatables/jquery.dataTables.js"></script>
-    <srcipt src="../../public/lib/datatables-responsive/dataTables.responsive.js"></script>
-
+    <script src="../../public/lib/datatables/jquery.dataTables.js"></script>
+    <script src="../../public/lib/datatables-responsive/dataTables.responsive.js"></script>
+    
     <script src="../../public/js/bracket.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script src="mntproducto.js"></script>
+
+
+  
   </body>
 </html>

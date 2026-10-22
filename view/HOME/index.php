@@ -696,8 +696,7 @@
 
       <div class="br-section-wrapper">
           <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Mantenimiento Producto</h6>
-          <p class="mg-b-25 mg-lg-b-50">Searching, ordering and paging goodness will be immediately added to the table, as shown in this example.</p>
-
+         <button id="btnnuevo" class="btn btn-primary btn-block mg-b-10">Nuevo Registro</button>
          <div class="table-wrapper">
   <table id="datatable1" class="table display responsive nowrap">
     <thead>
@@ -745,30 +744,9 @@
     <script src="../../public/lib/datatables-responsive/dataTables.responsive.js"></script>
     <script src="../../public/js/bracket.js"></script>
 
+    <script src="mntproducto.js"></script>
 
-     <script>
-      $(function(){
-        'use strict';
 
-        $('#datatable1').DataTable({
-          responsive: true,
-          language: {
-            searchPlaceholder: 'Search...',
-            sSearch: '',
-            lengthMenu: '_MENU_ items/page',
-          }
-        });
-
-        $('#datatable2').DataTable({
-          bLengthChange: false,
-          searching: false,
-          responsive: true
-        });
-
-        // Select2
-        $('.dataTables_length select').select2({ minimumResultsForSearch: Infinity });
-
-      });
-    </script>
+  
   </body>
 </html>
